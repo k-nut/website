@@ -1,0 +1,21 @@
+html, body, * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+  padding: 5rem 1rem;
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 800px) {
+  .container{
+    width: 100%;
+  }
+}
+
