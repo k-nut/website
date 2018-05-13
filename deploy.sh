@@ -1,4 +1,4 @@
 #!/bin/sh
 
-scp index.html knut@k-nut.eu:/var/www/virtual/knut/html
-scp sw.js knut@k-nut.eu:/var/www/virtual/knut/html
+bundle exec jekyll build
+scp -rp _site/* knut@k-nut.eu:/var/www/virtual/knut/html

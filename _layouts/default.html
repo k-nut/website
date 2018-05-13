@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> k-nut.eu - Knut Hühne {% if page.title %} - {{ page.title }} {% endif %} </title>
+  <style media="screen">
+  html, body, * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif
+  }
+
+  h1, h2{
+    font-weight: normal;
+  }
+
+  main {
+    padding: 5rem 1rem;
+  }
+
+  .centered {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer a, footer a:visited {
+    color: gray;
+    text-decoration: none;
+  }
+
+  @media (max-width: 800px) {
+    .centered {
+      width: 100%;
+    }
+  }
+  </style>
+</head>
+<body>
+  <main class="centered">
+    {% unless page.permalink == "/" %}
+      <a href="/" style="text-decoration: none"> 👈 back home 🏠</a>
+    {% endunless %}
+
+    {{ content }}
+  </main>
+  <footer class="centered">
+    <a href="/impressum/">Impressum</a>
+  </footer>
+  <script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('/sw.js');
+    }
+  </script>
+</body>
+
+</html>
