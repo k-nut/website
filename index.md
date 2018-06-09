@@ -23,7 +23,11 @@ I am part of the <a href="https://codefor.de/berlin">OK Lab Berlin</a> where we 
 </p>
 
 <p>
-I started writing down some of the insights that I made in my <a href="https://blog.k-nut.eu">Blog</a>.
+I started writing down some of the things that I work on or am fascinated by in my <a href="https://blog.k-nut.eu">Blog</a>.
+</p>
+
+<p>
+I like sharing things I have learned with other people and have given a couple of talks throughout the years. You can find an overview <a href="/speaking/">here</a>.
 </p>
 
 <p>
