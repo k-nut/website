@@ -191,5 +191,17 @@ I also usually present the work that we do at the Open Knowledge Lab Berlin once
 .meta {
 display: flex;
 justify-content: space-between;
+flex-wrap: wrap;
 }
+
+ul li {
+  list-style-type: none;
+}
+
+@media (max-width: 700px) {
+  .meta, .meta > * {
+    display: block;
+  }
+}
+
 </style>
