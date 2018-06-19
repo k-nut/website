@@ -175,6 +175,9 @@ I have also given some Lightning Talks. Most of them at <a href="https://www.mee
         {% if item.slides %}
         <a href="{{ item.slides }}" class="slides">Slides</a>
         {% endif %}
+        {% if item.source %}
+        <a href="{{ item.source }}" class="source">Source</a>
+        {% endif %}
         <span class="language">Language: {{ item.language }}</span>
       </div>
       <div class="description">{{ item.description | markdownify }}</div>
