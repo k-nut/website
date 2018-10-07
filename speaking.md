@@ -3,6 +3,19 @@ title: Speaking 💬
 layout: default
 permalink: /speaking/
 talks:
+  - title: "Paper Presentation: On the criteria for decomposing systems into modules"
+    date: 2018-09-04
+    venue: >
+      [Papers We Love Berlin](https://www.meetup.com/de-DE/Papers-We-Love-Berlin/)
+    language: EN
+    slides: /static/Criteria-for-Modularization.pdf
+    description: >
+      At this edition of Papers We Love I presented another classic paper: [On the criteria for decomposing
+      systems into modules](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf).
+      David L Parnas begins the paper by stating that the programming community can agree that modulrization is 
+      a good idea. He does belive though that the common way of modularizing a systems is not the best one and proposes
+      a different solution. What I liked best about this presentation was actually the discussion that followed it
+      as people had quite passionate opinions as well as insightfull questions about the topic.
   - title: "Offene Daten - Geschichte, Hintergründe, Anwendungen"
     date: 2018-03-01
     venue: >
