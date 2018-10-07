@@ -30,7 +30,6 @@ talks:
       build a self learning system that learns to play tic-tac-toe. The cool thing about this paper:
       It was written in the sixties and actually shows how to implement this system only with matchboxes and beads and does not require a computer. It is one of the first
       examples of machine reinforcement learning though.
-
   - title: Nationalist or Not - building a game with Wikidata
     date: 2017-06-24
     venue: >
@@ -131,6 +130,15 @@ lightningtalks:
       that I built with Wikidata. It picks a letter and lets the user enter their answers. Afterwards it makes a query to Wikidata to check
       if Wikidata knows the entry as a city (etc) or not. If no answer was given, it gives examples for correct answers. I showed how I built
       the query in SPARQL, the backend in Python and the frontend with vue.js. People seemed to like it and awarded it *Hack of the month*.
+  - title: Cowjokes and remembering tools
+    date: 2018-07-31
+    venue: Hack and Tell Berlin
+    language: EN
+    description: >
+      This was at a rather slow Hack and Tell, so I looked through my old code to see if I could present anything. I found a small script
+      that I had written a while ago that was good for showcasing how to use the command line by combining many small tools. I also showed
+      my small system for remembering tools that I discovered. People seemed to like these small hacks and awarded this *Hack of the Month* again.
+      To say thank you I wrote two blogposts later: [Cowjokes command line script](https://blog.k-nut.eu/cowjokes), [remembering tools](https://blog.k-nut.eu/tools-and-tricks)
 ---
 <h1> Speaking </h1>
 
