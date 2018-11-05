@@ -3,6 +3,19 @@ title: Speaking 💬
 layout: default
 permalink: /speaking/
 talks:
+  - title: "ISEMS: Making Solar Powered Mesh Networks Easy"
+    date: 2018-10-21
+    venue: >
+      [Radical Networks](https://radicalnetworks.org)
+    language: EN
+    video: https://www.youtube.com/watch?v=Fx38uWU1G8M&t=1s
+    description: >
+      Thanks to funding from the [Prototypefund](https://prototypefund.de), [Elektra](https://twitter.com/elektra_42) 
+      and I were able to work on [ISEMS](https://isems.de) for half a year. ISEMS is a project embedded in the 
+      mesh network community. The goal is to make it easier for people to set up their own independent, solar powered mesh networks.
+      It does this by providing a combination of hardware and software that shows users the status of their networks. 
+      If there are poblems (e.g. a node's battery capacity being too low), potential fixes are presented.
+      In the talk, we summarized the scope of the project, the features of the current implementation and potential future steps.
   - title: "Paper Presentation: On the criteria for decomposing systems into modules"
     date: 2018-09-04
     venue: >
@@ -168,6 +181,9 @@ One of the things that I enjoy about the development and Open Data scene is the 
         <span class="venue">{{ item.venue | markdownify | remove: '<p>' | remove: '</p>' }}</span>
         {% if item.code %}
         <span class="code"><a href="{{item.code}}"> Code </a> </span>
+        {% endif %} 
+        {% if item.video %}
+        <span class="video"><a href="{{item.video}}"> Recording </a> </span>
         {% endif %} 
         {% if item.slides %}
         <a href="{{ item.slides }}" class="slides">Slides</a>
