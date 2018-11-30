@@ -3,6 +3,37 @@ title: Speaking 💬
 layout: default
 permalink: /speaking/
 talks:
+  - title: "Workshop: Berliner Bäume-API - 500.000 Bäume durchsuchen, analysieren und visualisieren"
+    date: 2018-11-18
+    venue: >
+      [Bits und Bäume](https://bits-und-baeume.org)
+    language: DE
+    slides: /static/Berliner-Bäume-API.pdf
+    description: >
+      *Bits und Bäume* was a conference in Berlin with the goal of bringing together the tech and the sustainability 
+      communites. In this workshop I presented the Tree-API that we have built at Code For Berlin a couple of years ago.
+      The city of Berlin publishes a lot of data about most of the city's trees (e.g. height, circumference, age).
+      We downloaded this data and built and API around it to make it more easily usable. In the workshop I presented the 
+      data (which also serves as a good example for the things that can go wrong when collecting data), use cases from other
+      cities and held a short Q&A. The main part of the workshop was smaller groups gathering ideas of what one could do with
+      the data and the API. I took the results to Code For Berlin with the hope of us expanding on them and hopefully also building
+      some nice tools.
+  - title: "Code for Germany - Digitale Werkzeuge für die Zivilgesellschaft"
+    date: 2018-11-17
+    venue: >
+      [Bits und Bäume](https://bits-und-baeume.org)
+    language: DE
+    video: https://media.ccc.de/v/bub2018-12-code_for_germany_-_digitale_werkzeuge_fur_die_zivilgesellschaft
+    slides: /static/Code-For-Germany-Bits-und-Bäume.pdf
+    description: >
+      *Bits und Bäume* was a conference in Berlin with the goal of bringing together the tech and the sustainability 
+      communites. I gave a talk presenting our work with open data and on civic tech at Code For Germany.
+      The talk went into what we consider open data, where to find it and examples of what we have built with it so far.
+      It also briefly talked about the future that I envision for our community to work ever closer with other
+      communities (such as the ones present) to build tools that ease them in their daily work.
+      *Note that in the slides I show the state of Hessen as having no Freedom Of Information law. 
+      This was actually not correct anymore at the time of the talk since Hessen passed
+      a new law in April of 2018 bringing it a (comparably weak) FOI-law as well.*
   - title: "ISEMS: Making Solar Powered Mesh Networks Easy"
     date: 2018-10-21
     venue: >
