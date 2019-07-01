@@ -3,6 +3,38 @@ title: Speaking 💬
 layout: default
 permalink: /speaking/
 talks:
+  - title: "Wikidata - a new source for geospatial data"
+    date: 2019-06-24
+    venue: >
+      [Geopython](http://2019.geopython.net)
+    language: EN
+    slides: /static/Geopython-Wikidata.pdf
+    description: >
+      This was a two-hour workshop that I facilitated at the Geopython conference in Basel,
+      Switzerland. The attendees came from various backgrounds including local and federal
+      administration, startups and academia. My goal was to show them that Wikidata exists as a
+      plethora of freely and easily queryable data that they might be able to use in their daily
+      work. To do so, I explained how data is stored in Wikidata and showed many examples of
+      SPARQL-queries, building them up to be more complex over time. Whenever a new query concept
+      was introduced, I also provided small tasks that the attendees could work on as exercises. I
+      think people got quite a good introduction to the project and I was super happy to hear from
+      multiple people that they want to take this new tool into their work at their organizations.
+  - title: "The Wikidata Query Interface: The world's knowledge at your fingertips."
+    date: 2019-05-24
+    venue: >
+      [Enthusiasticon](https://www.enthusiasticon.de)
+    language: EN
+    slides: /static/Berliner-Bäume-API.pdf
+    description: >
+      I was really happy to get to speak at *Enthusiasticon*. As the name suggests, the conference
+      centers around letting people talk about topics that they are excited about. The talks are
+      only ten minutes with larger breaks in between that allow for talking in more detail with
+      attendees. This year, I was quite excited to show people what is possible with Wikidata
+      nowadays. I explained how Wikidata is built and showed how to query it, using the Wikidata
+      Query Service which is available at [query.wikidata.org](https://query.wikidata.org). I
+      especially focused on the build-in visualizations (e.g. map view, timeline) that the Query
+      Service offers as this is an excellent tool to get a feel of the data and to share something
+      with others quickly.
   - title: "Workshop: Berliner Bäume-API - 500.000 Bäume durchsuchen, analysieren und visualisieren"
     date: 2018-11-18
     venue: >
