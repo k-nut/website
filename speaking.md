@@ -24,7 +24,7 @@ talks:
     venue: >
       [Enthusiasticon](https://www.enthusiasticon.de)
     language: EN
-    slides: /static/Berliner-Bäume-API.pdf
+    slides: /static/Enthusiasticon-Wikidata.pdf
     description: >
       I was really happy to get to speak at *Enthusiasticon*. As the name suggests, the conference
       centers around letting people talk about topics that they are excited about. The talks are
