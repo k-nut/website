@@ -47,13 +47,40 @@
       width: 100%;
     }
   }
+
+    .main-nav ul{
+      margin-bottom: 2em;
+      display: flex;
+      padding: 0;
+      justify-content: space-between;
+    }
+
+    .main-nav li {
+      list-style-type: none;
+    }
+
+    .main-nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      color: rgb(26, 100, 0);
+    }
+
+  .main-nav a.active {
+    border-top: 1px solid rgb(26, 100, 0);
+  }
+
   </style>
 </head>
 <body>
   <main class="centered">
-    {% unless page.permalink == "/" %}
-      <a href="/" style="text-decoration: none"> 👈 back home 🏠</a>
-    {% endunless %}
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/" {% if page.url  == "/" %}class="active"{% endif %}>Home</a></li>
+        <li><a href="/speaking" {% if page.url  == "/speaking/" %}class="active"{% endif %}>Speaking</a></li>
+        <li><a href="https://blog.k-nut.eu">Blog</a></li>
+      </ul>
+    </nav>
 
     {{ content }}
   </main>
