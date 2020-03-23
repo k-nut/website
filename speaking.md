@@ -25,6 +25,7 @@ talks:
       [Enthusiasticon](https://www.enthusiasticon.de)
     language: EN
     slides: /static/Enthusiasticon-Wikidata.pdf
+    video: https://www.youtube.com/watch?v=jTmkEmn84dI
     description: >
       I was really happy to get to speak at *Enthusiasticon*. As the name suggests, the conference
       centers around letting people talk about topics that they are excited about. The talks are
