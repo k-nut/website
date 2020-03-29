@@ -2,6 +2,7 @@
 title: Speaking 💬
 layout: default
 permalink: /speaking/
+description: Information, slides and references on talks that I have given
 talks:
   - title: "Wikidata - a new source for geospatial data"
     date: 2019-06-24
