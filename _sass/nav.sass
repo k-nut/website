@@ -1,0 +1,37 @@
+.main-nav
+
+  ul
+    max-width: 800px
+    display: flex
+    padding: 0
+    justify-content: space-between
+    flex-wrap: wrap
+    margin: 0
+
+  li
+    list-style-type: none
+
+    &:first-child
+      flex-grow: 1
+
+    &:not(:first-child)
+      margin-left: 3rem
+
+  a
+    text-decoration: none
+    text-transform: uppercase
+    letter-spacing: 0.2em
+    font-size: 1.4rem
+    color: rgb(26, 100, 0)
+
+
+@media (max-width: 800px)
+  .main-nav ul li
+    width: 100%
+    margin-left: 0 !important
+
+    &:first-child
+      margin-bottom: 1.4em !important
+
+    &:not(:last-child)
+      margin-bottom: 1em !important

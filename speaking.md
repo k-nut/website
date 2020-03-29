@@ -5,8 +5,9 @@ permalink: /speaking/
 talks:
   - title: "Wikidata - a new source for geospatial data"
     date: 2019-06-24
-    venue: >
-      [Geopython](http://2019.geopython.net)
+    venue: 
+      label: Geoptyhon 2019
+      url: http://2019.geopython.net
     language: EN
     slides: /static/Geopython-Wikidata.pdf
     description: >
@@ -21,8 +22,9 @@ talks:
       multiple people that they want to take this new tool into their work at their organizations.
   - title: "The Wikidata Query Interface: The world's knowledge at your fingertips."
     date: 2019-05-24
-    venue: >
-      [Enthusiasticon](https://www.enthusiasticon.de)
+    venue: 
+      label: Enthusiasticon
+      url: https://www.enthusiasticon.de
     language: EN
     slides: /static/Enthusiasticon-Wikidata.pdf
     video: https://www.youtube.com/watch?v=jTmkEmn84dI
@@ -38,8 +40,9 @@ talks:
       with others quickly.
   - title: "Workshop: Berliner Bäume-API - 500.000 Bäume durchsuchen, analysieren und visualisieren"
     date: 2018-11-18
-    venue: >
-      [Bits und Bäume](https://bits-und-baeume.org)
+    venue: 
+      label: Bits und Bäume
+      url: https://bits-und-baeume.org
     language: DE
     slides: /static/Berliner-Bäume-API.pdf
     description: >
@@ -53,8 +56,9 @@ talks:
       some nice tools.
   - title: "Code for Germany - Digitale Werkzeuge für die Zivilgesellschaft"
     date: 2018-11-17
-    venue: >
-      [Bits und Bäume](https://bits-und-baeume.org)
+    venue: 
+      label: Bits und Bäume
+      url: https://bits-und-baeume.org
     language: DE
     video: https://media.ccc.de/v/bub2018-12-code_for_germany_-_digitale_werkzeuge_fur_die_zivilgesellschaft
     slides: /static/Code-For-Germany-Bits-und-Bäume.pdf
@@ -69,8 +73,9 @@ talks:
       a new law in April of 2018 bringing it a (comparably weak) FOI-law as well.*
   - title: "ISEMS: Making Solar Powered Mesh Networks Easy"
     date: 2018-10-21
-    venue: >
-      [Radical Networks](https://radicalnetworks.org)
+    venue: 
+      label: Radical Networks
+      url: https://radicalnetworks.org
     language: EN
     video: https://www.youtube.com/watch?v=Fx38uWU1G8M&t=1s
     description: >
@@ -82,8 +87,9 @@ talks:
       In the talk, we summarized the scope of the project, the features of the current implementation and potential future steps.
   - title: "Paper Presentation: On the criteria for decomposing systems into modules"
     date: 2018-09-04
-    venue: >
-      [Papers We Love Berlin](https://www.meetup.com/de-DE/Papers-We-Love-Berlin/)
+    venue: 
+      label: Papers We Love Berlin
+      url: https://www.meetup.com/de-DE/Papers-We-Love-Berlin/
     language: EN
     slides: /static/Criteria-for-Modularization.pdf
     description: >
@@ -95,8 +101,9 @@ talks:
       as people had quite passionate opinions as well as insightfull questions about the topic.
   - title: "Offene Daten - Geschichte, Hintergründe, Anwendungen"
     date: 2018-03-01
-    venue: >
-      [Think Big Data Camp](https://www.think-big.org/machen/camps/)
+    venue: 
+      label: Think Big Data Camp
+      url: https://www.think-big.org/machen/camps/
     language: DE
     slides: /static/Die-Welt-der-offenen-Daten.pdf
     description: >
@@ -109,8 +116,9 @@ talks:
       actual problems and improve their communities.
   - title: "Paper Presentation: MENACE - Machine learning with matchboxes"
     date: 2018-02-01
-    venue: >
-      [Papers We Love Berlin](https://www.meetup.com/de-DE/Papers-We-Love-Berlin/)
+    venue: 
+      label: Papers We Love Berlin
+      url: https://www.meetup.com/de-DE/Papers-We-Love-Berlin/
     language: EN
     slides: /static/papers-we-love-with-notes.pdf
     description: >
@@ -122,8 +130,9 @@ talks:
       examples of machine reinforcement learning though.
   - title: Nationalist or Not - building a game with Wikidata
     date: 2017-06-24
-    venue: >
-      [Wikidata Wahldaten Workshop](https://de.wikipedia.org/wiki/Wikipedia:Wikidata-Wahldaten-Workshop)
+    venue: 
+      label: Wikidata Wahldaten Workshop
+      url: https://de.wikipedia.org/wiki/Wikipedia:Wikidata-Wahldaten-Workshop
     code: https://github.com/k-nut/nationalist-or-not
     language: DE
     description: >
@@ -134,7 +143,6 @@ talks:
       of left- and right-wing politicians are fetched from Wikidata and the players have to swipe left or right depending on
       the party association that they guess fo the politician. In the talk/workshop I went over the data model that is used
       for this in Wikidata and we had a look at the (relatively small amount of) code that was required to build the game.
-
 
 lightningtalks:
   - title: Introduction to Open Data and Code For Germany
@@ -230,6 +238,7 @@ lightningtalks:
       my small system for remembering tools that I discovered. People seemed to like these small hacks and awarded this *Hack of the Month* again.
       To say thank you I wrote two blogposts later: [Cowjokes command line script](https://blog.k-nut.eu/cowjokes), [remembering tools](https://blog.k-nut.eu/tools-and-tricks)
 ---
+
 <h1> Speaking </h1>
 
 One of the things that I enjoy about the development and Open Data scene is the willingness to share knowledge and experiences at conferences and meetups. In the last couple of years I have given some talks at those gatherings. This page collects the topics I spoke about. It should give you an insight into what I find interesting and allow me to remember all the things I presented.
@@ -238,13 +247,15 @@ One of the things that I enjoy about the development and Open Data scene is the 
   <ul>
     {% assign talks = page.talks | sort: 'date' | reverse  %}
     {% for item in talks  %}
-    <li>
+    <li class="entry">
+      <span class="date">{{ item.date }}</span>
       <h3 class="title">{{ item.title }} </h3>
       <div class="meta">
-        <span class="date">{{ item.date }}</span>
-        <span class="venue">{{ item.venue | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+        <span class="venue">
+         <a href="{{item.venue.url}}">@{{ item.venue.label }} </a>
+        </span>
         {% if item.code %}
-        <span class="code"><a href="{{item.code}}"> Code </a> </span>
+        <span class="code"><a href="{{item.code}}">Code</a></span>
         {% endif %} 
         {% if item.video %}
         <span class="video"><a href="{{item.video}}"> Recording </a> </span>
@@ -252,13 +263,11 @@ One of the things that I enjoy about the development and Open Data scene is the 
         {% if item.slides %}
         <a href="{{ item.slides }}" class="slides">Slides</a>
         {% endif %}
-        <span class="language">Language: {{ item.language }}</span>
       </div>
       <div class="description">{{ item.description | markdownify }}</div>
     </li>
     {% endfor %}
   </ul>
-
 
 <h2> Lightning Talks </h2>
   <p> 
@@ -268,18 +277,17 @@ I have also given some Lightning Talks. Most of them at <a href="https://www.mee
   <ul>
     {% assign ts = page.lightningtalks | sort : 'date' | reverse %}
     {% for item in ts %}
-    <li>
+    <li class="entry">
+      <span class="date">{{ item.date }}</span>
       <h3 class="title">{{ item.title }} </h3>
       <div class="meta">
-        <span class="date">{{ item.date }}</span>
         <span class="venue">{{ item.venue }}</span>
         {% if item.slides %}
         <a href="{{ item.slides }}" class="slides">Slides</a>
         {% endif %}
         {% if item.source %}
-        <a href="{{ item.source }}" class="source">Source</a>
+        <a href="{{ item.source }}" class="source">Code</a>
         {% endif %}
-        <span class="language">Language: {{ item.language }}</span>
       </div>
       <div class="description">{{ item.description | markdownify }}</div>
     </li>
@@ -289,20 +297,6 @@ I have also given some Lightning Talks. Most of them at <a href="https://www.mee
 I also usually present the work that we do at the Open Knowledge Lab Berlin once a month at our meetup. The presentation gives a general overview about the background of open data, its applications and the work that we in Berlin and the whole codefor.de community is doing with it. If this sounds interesting to you, you should totally <a href="https://www.meetup.com/OK-Lab-Berlin/">come by</a>.
 
 <style>
-.meta {
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-}
 
-ul li {
-  list-style-type: none;
-}
-
-@media (max-width: 700px) {
-  .meta, .meta > * {
-    display: block;
-  }
-}
 
 </style>

@@ -1,12 +1,13 @@
 ---
 permalink: /
 layout: default
+title: Hi, I'm Knut
 ---
-# Hi I'm Knut 👋
+# Hi, I'm Knut 👋
 I'm a developer from Berlin working on various web- and open data related things.
 
 ## Some Projects
-<ul>
+<ul class="projects-list">
   <li> <a href="https://unisport.berlin"> unisport.berlin</a> <br />
       Search through all the sports classes that Berlin's universities offer </li>
   <li> <a href="https://license-check.k-nut.eu">GitHub License Check</a> <br />
@@ -31,8 +32,8 @@ I like sharing things I have learned with other people and have given a couple o
 </p>
 
 <p>
-I graduated from <a href="https://www.htw-berlin.de/"> htw Berlin </a> where I studied environmental computer sciences and wrote my <a href="./static/Bachelor-Thesis-Knut-Hühne.pdf">German Bachelor Thesis</a> about weather adjustment for Energy Metering and Monitoring Systems.
+I graduated from <a href="https://www.htw-berlin.de/">htw Berlin</a> where I studied environmental computer sciences and wrote my <a href="./static/Bachelor-Thesis-Knut-Hühne.pdf">German Bachelor Thesis</a> about weather adjustment for Energy Metering and Monitoring Systems.
 </p>
 
 <h2> Social </h2>
-You can find me on <a href="https://github.com/k-nut">github</a>, <a href="http://stackoverflow.com/users/4099396/k-nut">stack overflow </a> and <a href="https://twitter.com/notknut">twitter</a> or you can just send me an<a href="mailto:knut+website@k-nut.eu"> email </a>. Feel free to encrypt it with my <a href="./static/pubkey.asc"> GPG key.</a>
+You can find me on <a href="https://github.com/k-nut">github</a>, <a href="http://stackoverflow.com/users/4099396/k-nut">stack overflow </a> and <a href="https://twitter.com/notknut">twitter</a> or you can just send me an <a href="mailto:knut+website@k-nut.eu">email</a>. Feel free to encrypt it with my <a href="./static/pubkey.asc"> GPG key.</a>
