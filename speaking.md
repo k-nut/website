@@ -10,7 +10,7 @@ talks:
       label: Geoptyhon 2019
       url: http://2019.geopython.net
     language: EN
-    slides: /static/Geopython-Wikidata.pdf
+    slides: https://static.k-nut.eu/Geopython-Wikidata.pdf
     description: >
       This was a two-hour workshop that I facilitated at the Geopython conference in Basel,
       Switzerland. The attendees came from various backgrounds including local and federal
