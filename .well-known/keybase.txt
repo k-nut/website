@@ -1,0 +1,53 @@
+https://keybase.io/knut
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://k-nut.eu
+  * I am knut (https://keybase.io/knut) on keybase.
+  * I have a public key ASC4q_VgMgEKgz1UEGK8JV8OmdfNRzZPc_xyadnjckLemgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b8abf56032010a833d541062bc255f0e99d7cd47364f73fc7269d9e37242de9a0a",
+      "host": "keybase.io",
+      "kid": "0120b8abf56032010a833d541062bc255f0e99d7cd47364f73fc7269d9e37242de9a0a",
+      "uid": "80a8dfa0043dc49172fb0bf706dfb500",
+      "username": "knut"
+    },
+    "merkle_root": {
+      "ctime": 1586119910,
+      "hash": "351a49eb66dfa5dd211b61fe714da2dd3ef15cfbb67e7ddc93e2d543a77784ff91ce7b755fd45b1094992b76e2b2fabfc2df1d81f5d9a9e2d6c67338cbe17b64",
+      "hash_meta": "e0afede3118967a9a463c07c56543d7e4c4a95249e0cb6a6dbb6c3bd5817f984",
+      "seqno": 15775529
+    },
+    "service": {
+      "entropy": "OqkMWvmaGJdevFTFgxnc+mzf",
+      "hostname": "k-nut.eu",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.3.0"
+  },
+  "ctime": 1586119917,
+  "expire_in": 504576000,
+  "prev": "9fe6d809bb6245c49dec885ab89f51ab2866733cb2a5a7a777adbbad30a15831",
+  "seqno": 35,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEguKv1YDIBCoM9VBBivCVfDpnXzUc2T3P8cmnZ43JC3poKp3BheWxvYWTESpcCI8Qgn+bYCbtiRcSd7IhauJ9Rqyhmczyypaend627rTChWDHEIOho6kwnWkZlUUZ6gtX6zc8zM0K96tI4Vkhr89TO3V/JAgHCo3NpZ8RAub8Ef+u9LvBClb2rd6Vz4Huo7JyyqqQYTP9g6Oct+0KSWNTwFz0qUg2nOVZexkJmFgr+EDDAMEbvmlkfJvrzDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAqdTJRPQL+V72NdmPNGnhJdqULRccEG1P1tlC2h4coMo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/knut

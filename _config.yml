@@ -16,5 +16,8 @@ exclude:
  - deploy.sh
  - vendor
 
+include:
+  - .well-known
+
 plugins:
  - jekyll-seo-tag
