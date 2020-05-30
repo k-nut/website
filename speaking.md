@@ -27,7 +27,7 @@ talks:
       label: Enthusiasticon
       url: https://www.enthusiasticon.de
     language: EN
-    slides: /static/Enthusiasticon-Wikidata.pdf
+    slides: https://static.k-nut.eu/Enthusiasticon-Wikidata.pdf
     video: https://www.youtube.com/watch?v=jTmkEmn84dI
     description: >
       I was really happy to get to speak at *Enthusiasticon*. As the name suggests, the conference
@@ -45,7 +45,7 @@ talks:
       label: Bits und Bäume
       url: https://bits-und-baeume.org
     language: DE
-    slides: /static/Berliner-Bäume-API.pdf
+    slides: https://static.k-nut.eu/Berliner-Bäume-API.pdf
     description: >
       *Bits und Bäume* was a conference in Berlin with the goal of bringing together the tech and the sustainability 
       communites. In this workshop I presented the Tree-API that we have built at Code For Berlin a couple of years ago.
@@ -62,7 +62,7 @@ talks:
       url: https://bits-und-baeume.org
     language: DE
     video: https://media.ccc.de/v/bub2018-12-code_for_germany_-_digitale_werkzeuge_fur_die_zivilgesellschaft
-    slides: /static/Code-For-Germany-Bits-und-Bäume.pdf
+    slides: https://static.k-nut.eu/Code-For-Germany-Bits-und-Bäume.pdf
     description: >
       *Bits und Bäume* was a conference in Berlin with the goal of bringing together the tech and the sustainability 
       communites. I gave a talk presenting our work with open data and on civic tech at Code For Germany.
@@ -92,7 +92,7 @@ talks:
       label: Papers We Love Berlin
       url: https://www.meetup.com/de-DE/Papers-We-Love-Berlin/
     language: EN
-    slides: /static/Criteria-for-Modularization.pdf
+    slides: https://static.k-nut.eu/Criteria-for-Modularization.pdf
     description: >
       At this edition of Papers We Love I presented another classic paper: [On the criteria for decomposing
       systems into modules](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf).
@@ -106,7 +106,7 @@ talks:
       label: Think Big Data Camp
       url: https://www.think-big.org/machen/camps/
     language: DE
-    slides: /static/Die-Welt-der-offenen-Daten.pdf
+    slides: https://static.k-nut.eu/Die-Welt-der-offenen-Daten.pdf
     description: >
       The *Think Big Data Camp* was an event aimed at people between the ages of 15 and 25 that wanted to get into programming
       and build tools related to "big data". My part was introducing them to the concept
@@ -121,7 +121,7 @@ talks:
       label: Papers We Love Berlin
       url: https://www.meetup.com/de-DE/Papers-We-Love-Berlin/
     language: EN
-    slides: /static/papers-we-love-with-notes.pdf
+    slides: https://static.k-nut.eu/papers-we-love-with-notes.pdf
     description: >
       Papers We Love is a meetup where people come together to talk about (computer science)
       papers that they read and liked. I talked about the paper [Experiments on the mechanization of game
