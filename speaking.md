@@ -4,6 +4,20 @@ layout: default
 permalink: /speaking/
 description: Information, slides and references on talks that I have given
 talks:
+  - title: "WikidataCon - Open Data Panel"
+    date: 2019-10-26
+    venue:
+      label: WikidataCon 2019
+      url: https://www.wikidata.org/wiki/Wikidata:WikidataCon_2019
+    language: EN
+    video: https://media.ccc.de/v/wikidatacon2019-11-open_data_panel
+    description: >
+      [Alice Wiegand](https://twitter.com/lyzzy) and I did a short panel at the WikidataCon 2019
+      where we talked about the current state of Open Data in Germany. I think this was an interesting
+      panel as Alice was able to provide her experience from working from within the government
+      and I was able to contribute the community's perspective. I was happy that there
+      were questions from the audience and my hope is that this sparked some more long term interest
+      in collaboration between governmental bodies and the (Wikidata) community.
   - title: "Wikidata - a new source for geospatial data"
     date: 2019-06-24
     venue: 
