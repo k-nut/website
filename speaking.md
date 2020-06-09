@@ -4,6 +4,21 @@ layout: default
 permalink: /speaking/
 description: Information, slides and references on talks that I have given
 talks:
+  - title: "What's in a name. A Gentle Introduction to DNS"
+    date: 2020-06-06
+    venue:
+      label: Enthusiasticon 2020
+      url: https://www.enthusiasticon.de
+    language: EN
+    slides: https://static.k-nut.eu/Whats-in-a-name.pdf
+    video: https://www.youtube.com/watch?v=EkbcI3KgUuY&t=24250s
+    description: >
+      This was a talk at the 2020 remote Enthusiasticon. I had been working on setting
+      up DNS at my work and realized that I had some kind of intuitive understanding
+      of how DNS works but the more I looked at it, the more I realized that there were
+      parts that I did not understand entirely. I did some research and came out with this
+      presentation in which we use `dig` to follow a DNS request for enthusiasticon.de from
+      the root servers up to the A record which contains the actual IPV4 address.
   - title: "WikidataCon - Open Data Panel"
     date: 2019-10-26
     venue:
