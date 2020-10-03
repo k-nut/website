@@ -36,7 +36,7 @@ talks:
   - title: "Wikidata - a new source for geospatial data"
     date: 2019-06-24
     venue: 
-      label: Geoptyhon 2019
+      label: Geopython 2019
       url: http://2019.geopython.net
     language: EN
     slides: https://static.k-nut.eu/Geopython-Wikidata.pdf
