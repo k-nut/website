@@ -5,7 +5,7 @@ title: Hi, I'm Knut
 description: I'm a developer from Berlin working on various web- and open data related things.
 ---
 # Hi, I'm Knut 👋
-I'm a developer from Berlin working on various web- and open data related things.
+I'm a software developer from Berlin working on various web- and open data related things.
 
 ## Some Projects
 <ul class="projects-list">
