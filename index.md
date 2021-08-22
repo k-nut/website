@@ -12,7 +12,7 @@ I'm a software developer from Berlin working on various web- and open data relat
   <li> <a href="https://unisport.berlin"> unisport.berlin</a> <br />
       Search through all the sports classes that Berlin's universities offer </li>
   <li> <a href="https://wem-gehoert-hamburg.de">Wem gehört Hamburg</a> <br />
-      Project developed at <a href="https://correctiv.org">correctiv</a> to investigate house ownership in Hamuburg  <br />
+      Project developed at <a href="https://correctiv.org">correctiv</a> to investigate house ownership in Hamburg <br />
       Winner of the <a href="https://www.grimme-online-award.de/archiv/2019/preistraeger/">Grimme Online Award 2019</a>
 </li>
   <li> <a href="https://jedeschule.de/schulen/">jedeschule.de</a> <br />
