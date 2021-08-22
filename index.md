@@ -11,8 +11,10 @@ I'm a software developer from Berlin working on various web- and open data relat
 <ul class="projects-list">
   <li> <a href="https://unisport.berlin"> unisport.berlin</a> <br />
       Search through all the sports classes that Berlin's universities offer </li>
-  <li> <a href="https://license-check.k-nut.eu">GitHub License Check</a> <br />
-      Check if all of you remembered to add a license to all your GitHub repositories</li>
+  <li> <a href="https://wem-gehoert-hamburg.de">Wem gehört Hamburg</a> <br />
+      Project developed at <a href="https://correctiv.org">correctiv</a> to investigate house ownership in Hamuburg  <br />
+      Winner of the <a href="https://www.grimme-online-award.de/archiv/2019/preistraeger/">Grimme Online Award 2019</a>
+</li>
   <li> <a href="https://jedeschule.de/schulen/">jedeschule.de</a> <br />
    <span>
   Freelance support for the <a href="https://okfn.de">Open Knowledge Foundation Deutschland</a>. We scraped the schools from all states in Germany and made them searchable in a single website
