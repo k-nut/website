@@ -39,4 +39,4 @@ I graduated from <a href="https://www.htw-berlin.de/">htw Berlin</a> where I stu
 </p>
 
 <h2> Social </h2>
-You can find me on <a href="https://github.com/k-nut">github</a>, <a href="http://stackoverflow.com/users/4099396/k-nut">stack overflow </a> and <a href="https://twitter.com/notknut">twitter</a> or you can just send me an <a href="mailto:knut+website@k-nut.eu">email</a>. Feel free to encrypt it with my <a href="./static/pubkey.asc"> GPG key.</a>
+You can find me on <a href="https://github.com/k-nut">github</a>, <a href="http://stackoverflow.com/users/4099396/k-nut">stack overflow </a>, <a href="https://twitter.com/notknut">twitter</a> and <a rel="me" href="https://berlin.social/@knut">Mastodon</a> or you can just send me an <a href="mailto:knut+website@k-nut.eu">email</a>. Feel free to encrypt it with my <a href="./static/pubkey.asc"> GPG key.</a>
