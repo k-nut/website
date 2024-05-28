@@ -8,5 +8,5 @@ permalink: /impressum/
 Knut Hühne  
 Petersburger Str. 17  
 10249 Berlin  
-Telefon: +49 (0)176 32961946  
+Telefon: +49 (0)15679 238 695
 E-Mail: impressum@k-nut.eu
