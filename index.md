@@ -23,7 +23,11 @@ I'm a software developer from Berlin working on various web- and open data relat
 </ul>
 
 <p>
-I am part of the <a href="https://codefor.de/berlin">OK Lab Berlin</a> where we meet once a week to work on open data related topics. You should totally <a href="http://www.meetup.com/OK-Lab-Berlin/">join</a>!
+I am part of the <a href="https://codefor.de/berlin">OK Lab Berlin</a> where we meet once a month to work on open data related topics. You should totally <a href="http://www.meetup.com/OK-Lab-Berlin/">join</a>!
+</p>
+
+<p>
+I also help run <a href="https://www.meetup.com/papers-we-love-berlin/">Papers We Love Berlin</a> where we meet at irregular intervals to discuss computer science (and thematically adjacent) papers.
 </p>
 
 <p>
@@ -39,4 +43,4 @@ I graduated from <a href="https://www.htw-berlin.de/">htw Berlin</a> where I stu
 </p>
 
 <h2> Social </h2>
-You can find me on <a href="https://github.com/k-nut">github</a>, <a href="http://stackoverflow.com/users/4099396/k-nut">stack overflow </a>, <a href="https://twitter.com/notknut">twitter</a> and <a rel="me" href="https://berlin.social/@knut">Mastodon</a> or you can just send me an <a href="mailto:knut+website@k-nut.eu">email</a>. Feel free to encrypt it with my <a href="./static/pubkey.asc"> GPG key.</a>
+You can find me on <a href="https://github.com/k-nut">github</a>, <a href="http://stackoverflow.com/users/4099396/k-nut">stack overflow </a> and <a rel="me" href="https://berlin.social/@knut">Mastodon</a> or you can just send me an <a href="mailto:knut+website@k-nut.eu">email</a>. Feel free to encrypt it with my <a href="./static/pubkey.asc"> GPG key.</a>
